@@ -45,7 +45,7 @@ void KMPAlgorithm(char* text, char* pattern) {
    }
 }
 int main() {
-   char text[] = "xyzrishxyzi";
+   char text[] = "xyzrishixyzi";
    char pattern[] = "xyz";
    printf("The pattern is found in the text at the following index : \n");
    KMPAlgorithm(text, pattern);
